@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Create Employee</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+.container-fluid {
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+
+table {
+	display: table;
+	border-collapse: separate;
+	border-spacing: 10px;
+	border-color: gray;
+	font-size: large;
+}
+</style>
+</head>
+<body>
+	<div class="container-fluid">
+		<h2 align="center">Enter Details To Create Employee</h2>
+		<div class="row">
+
+			<form method="get" action="MyServlet">
+				<div class="col-sm-offset-4 col-sm-6">
+					<table>
+						<tr>
+							<td>First Name:</td>
+							<td><input type="text" name="fname"></td>
+						</tr>
+						<tr>
+							<td>Last Name:</td>
+							<td><input type="text" name="lname"></td>
+						</tr>
+						<tr>
+							<td>Date of Birth(dd/mm/yyyy):</td>
+							<td><input type="text" name="dob"></td>
+						</tr>
+						<tr>
+							<td>Department:</td>
+							<td><input type="text" name="dept"></td>
+						</tr>
+						<tr>
+							<td>Designation:</td>
+							<td><input type="text" name="desig"></td>
+						</tr>
+						<tr>
+							<td>Basic Salary:</td>
+							<td><input type="text" name="sal"></td>
+						</tr>
+						<tr>
+							<td>Educational Qualification:</td>
+							<td><input type="text" name="qual"></td>
+						</tr>
+						<tr>
+							<td>Address Line 1:</td>
+							<td><input type="text" name="add1"></td>
+						</tr>
+						<tr>
+							<td>Address Line 2:</td>
+							<td><input type="text" name="add2"></td>
+						</tr>
+						<tr>
+							<td>City:</td>
+							<td><input type="text" name="city"></td>
+						</tr>
+						<tr>
+							<td>Pin:</td>
+							<td><input type="text" name="pin"></td>
+						</tr>
+						<tr>
+							<td>Phone:</td>
+							<td><input type="text" name="phn"></td>
+						</tr>
+					</table>
+					<br>
+				</div>
+				<div class="col-sm-offset-6 col-sm-6">
+					<input type="submit" value="Create Employee">
+				</div>
+			</form>
+
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Display Employee</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+.container-fluid {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+table {
+	display: table;
+	border-collapse: separate;
+	border-spacing: 10px;
+	border-color: gray;
+	font-size: large;
+}
+</style>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class=row">
+			<div class="col-sm-offset-4 col-sm-6">
+				<form action="DisplayServlet" method="get">
+					<h3>Display Details of Employee</h3>
+					<input type="text" name="id" placeholder="Enter ID"> <input
+						type="submit" value="Display Details">
+				</form>
+				<br> <br> <a href="DisplayAll.jsp"><h3>Display
+						Details of All Employees</h3></a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
